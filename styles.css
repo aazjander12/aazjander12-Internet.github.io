@@ -1,0 +1,232 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: 'Georgia', serif;
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    background-color: #a7cfc7;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+  }
+  
+  /* Navigation Bar */
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #b9aeab;
+    padding: 10px 0;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+  }
+  
+  /* Sub-header (Resources title) */
+  .sub-header {
+    background-color: #b9aeab;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .sub-header h2 {
+    font-size: 2rem;
+    color: white;
+  }
+  
+  /* Main Content - Resources Section */
+  .resources {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .resource-item {
+    width: 300px;
+    text-align: center;
+  }
+  
+  .resource-title {
+    background-color: #c87978;
+    color: white;
+    font-size: 2rem;
+    padding: 40px 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Resource Text */
+  .resource-item p {
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: left;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #a7cfc7;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  footer p {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  /* About Page Layout */
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  /* About Text Section */
+  .about-text {
+    background-color: #b9aeab;
+    padding: 30px;
+    max-width: 500px;
+    border-radius: 8px;
+  }
+  
+  .about-text blockquote {
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about-text p {
+    font-size: 1rem;
+    color: white;
+    line-height: 1.6;
+  }
+  
+  /* About Image Section */
+  .about-image {
+    background-color: #b9aeab;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .about-image img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .founder-caption {
+    color: white;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  .title {
+    background-color: #91c1ba;
+    color: #fffaf5;
+    font-size: 2.5rem;
+    padding: 10px 0;
+    font-weight: bold;
+  }
+  
+  nav {
+    background-color: #b3a5a4;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 10px 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fffaf5;
+    font-size: 1.2rem;
+  }
+  
+  main {
+    text-align: center;
+    padding: 30px 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .join-form {
+    background-color: #b3a5a4;
+    padding: 30px;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .join-form label {
+    font-size: 1.5rem;
+    text-align: left;
+    color: #1e1e1e;
+  }
+  
+  .join-form input {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #dcdcdc;
+    border: none;
+  }
+  .join-form button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #91c1ba;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .join-form button:hover {
+    background-color: #7aa9a3;
+  }
+  
